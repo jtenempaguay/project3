@@ -1,0 +1,72 @@
+img {
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapper {
+    height:100%;
+}
+
+.card {
+    display: none;
+    width: 450px;
+}
+
+.bookShow {
+    display: block;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.hover-invert:not(.active):hover {
+    color: white;
+    background: black;
+}
+
+.loading {
+    margin: 25% auto;
+    border: 11px solid #a6a6a6;
+    border-radius: 50%;
+    border-top: 11px solid #a6a6a6;
+    border-bottom: 11px solid #f2f2f2;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 1.5s linear infinite;
+    animation: spin 1.5s linear infinite;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  .book-load {
+    margin: 25% auto;
+    border: 9px solid #a6a6a6;
+    border-radius: 50%;
+    border-top: 9px solid #a6a6a6;
+    border-bottom: 9px solid #f2f2f2;
+    width: 100px;
+    height: 100px;
+    -webkit-animation: spin 1.5s linear infinite;
+    animation: spin 1.5s linear infinite;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
